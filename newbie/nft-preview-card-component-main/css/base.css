@@ -32,15 +32,32 @@
   font-weight: 300;
   color: hsl(215deg, 51%, 70%);
 }
+.container .box .avatar {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid hsl(215deg, 32%, 27%);
+}
+.container .box .avatar .avatar-img {
+  height: 30px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+.container .box .avatar p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.container .box .avatar p span {
+  color: hsl(215deg, 51%, 70%);
+}
 .container .box p:nth-of-type(3) {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 18px;
   padding-top: 10px;
-  border-top: 1px solid hsl(215deg, 32%, 27%);
-}
-.container .box p:nth-of-type(3) span {
-  color: hsl(215deg, 51%, 70%);
 }
 .container .box .eth {
   display: flex;
