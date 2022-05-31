@@ -1,0 +1,29 @@
+/* COLORS */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: hsl(0deg, 0%, 100%);
+}
+.container .box {
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: hsl(216deg, 50%, 16%);
+}
+.container .box .image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+}/*# sourceMappingURL=base.css.map */
