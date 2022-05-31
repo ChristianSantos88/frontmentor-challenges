@@ -1,4 +1,5 @@
 /* COLORS */
+/* COLORS */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 .container {
   display: flex;
@@ -9,7 +10,7 @@
   color: hsl(0deg, 0%, 100%);
 }
 .container .box {
-  width: 250px;
+  width: 350px;
   padding: 20px;
   border-radius: 15px;
   background-color: hsl(216deg, 50%, 16%);
@@ -18,11 +19,46 @@
   width: 100%;
   border-radius: 10px;
 }
-.container .box p {
+.container .box p:first-of-type {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: 600;
+}
+.container .box p:nth-of-type(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+}
+.container .box p:nth-of-type(3) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-top: 10px;
+  border-top: 1px solid hsl(215deg, 32%, 27%);
+}
+.container .box p:nth-of-type(3) span {
+  color: hsl(215deg, 51%, 70%);
+}
+.container .box .eth {
+  display: flex;
+  justify-content: space-between;
+}
+.container .box .eth p:first-of-type {
+  font-weight: 400;
+  color: hsl(178deg, 100%, 50%);
+}
+.container .box .eth p:first-of-type::before {
+  content: url(../images/icon-ethereum.svg);
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.container .box .eth p:last-of-type::before {
+  content: url(../images/icon-clock.svg);
+  vertical-align: middle;
+  padding-right: 5px;
 }
 
 * {
