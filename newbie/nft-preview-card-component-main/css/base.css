@@ -1,4 +1,5 @@
 /* COLORS */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 .container {
   display: flex;
   justify-content: center;
@@ -17,6 +18,12 @@
   width: 100%;
   border-radius: 10px;
 }
+.container .box p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 * {
   margin: 0;
@@ -25,5 +32,6 @@
 }
 
 body {
+  font-family: "Outfit", sans-serif;
   background-color: hsl(217deg, 54%, 11%);
 }/*# sourceMappingURL=base.css.map */
