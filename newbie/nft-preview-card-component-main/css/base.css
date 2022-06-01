@@ -15,6 +15,22 @@
   border-radius: 15px;
   background-color: hsl(216deg, 50%, 16%);
 }
+.container .box .img-div {
+  position: relative;
+}
+.container .box .view {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: hsla(178deg, 100%, 50%, 0.497);
+  padding: 131px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.container .box .img-div:hover > .view {
+  display: block;
+}
 .container .box .image {
   width: 100%;
   border-radius: 10px;

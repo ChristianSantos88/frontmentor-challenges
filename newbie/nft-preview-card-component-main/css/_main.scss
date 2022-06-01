@@ -10,15 +10,38 @@
     color: $color-white;
 
     .box {
+       
         width: 350px;
         padding: 20px;
         border-radius: 15px;
         background-color: $color-card-bg;
 
-        .image {
+        .img-div {
+            position: relative;
+        }
+
+        .view {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            background-color: hsla(178, 100%, 50%, 0.497);
+            padding: 131px;
+            border-radius: 15px;
+            cursor: pointer; 
+        }
+
+        .img-div:hover > .view {
+            display: block;
+        }
+
+        .image {            
             width: 100%;
             border-radius: 10px;
         }
+
+        
+
 
         & p:first-of-type {
             @include p-pattern;
