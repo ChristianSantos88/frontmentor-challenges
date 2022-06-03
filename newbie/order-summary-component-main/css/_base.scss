@@ -9,12 +9,43 @@
     background-color: $primary-color-pale-blue;
 
     .box {
-        width: 250px;
+        width: 360px;
         background-color: white;
         text-align: center;
 
+        .text-box {
+            padding: 0 38px 40px 38px;
+        }
+
+        .first-p {
+            text-align: center;
+            padding: 0 10px 0 10px;
+        }
+
         .box-img {
             width: 100%;
+            margin-bottom: 40px;
         }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            background-color: $neutral-color-desaturated-blue;
+            padding: 20px;
+            margin: 40px 0 40px 0;
+        }
+
+        button  {
+            display: block;
+            margin-bottom: 40px;
+            padding: 10px;
+            width: 100%;            
+        }
+
+        
     }
 }
