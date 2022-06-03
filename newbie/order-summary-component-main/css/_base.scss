@@ -1,12 +1,17 @@
+@import 'variables';
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background-color: $primary-color-pale-blue;
 
     .box {
         width: 250px;
+        background-color: white;
+        text-align: center;
 
         .box-img {
             width: 100%;

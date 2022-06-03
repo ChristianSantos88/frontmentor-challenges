@@ -1,6 +1,18 @@
-/* COLORS */
-/* PRIMARY */
-### Primary
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+/* COLORS */
+/* Primary */
+$primary-color-pale-blue: hsl(225, 100%, 94%);
+$primary-color-bright-blue: hsl(245, 75%, 52%);
+
+/* Neutral */
+$neutral-color-very-pale-blue: hsl(225, 100%, 98%);
+$neutral-color-desaturated-blue: hsl(224, 23%, 55%);
+$neutral-color-dark-blue: hsl(223, 47%, 23%);
+
+/* FONT SIZE, WEIGHT & FAMILY */
+$f-size: 16px;
+$f-family: 'Red Hat Display', sans-serif;
+$f-weight-500: 500;
+$f-weight-700: 700;
+$f-weight-900: 900;
