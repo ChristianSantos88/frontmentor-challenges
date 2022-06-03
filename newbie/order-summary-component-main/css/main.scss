@@ -1,13 +1,7 @@
 @import 'base';
 
-body {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    
-    background-image: url("../images/pattern-background-desktop.svg");
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-position: fixed;
-    
+    box-sizing: border-box;
 }
