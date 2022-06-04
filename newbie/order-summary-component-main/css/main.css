@@ -17,7 +17,7 @@
   background-color: hsl(225deg, 100%, 94%);
 }
 .container .box {
-  width: 360px;
+  width: 400px;
   background-color: white;
   text-align: center;
   border-radius: 20px 15px 15px 15px;
@@ -25,8 +25,17 @@
 .container .box .text-box {
   padding: 0 38px 40px 38px;
 }
+.container .box .text-box .cancel-order {
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900;
+}
+.container .box .text-box .cancel-order:hover {
+  color: hsl(223deg, 47%, 23%);
+}
 .container .box .first-p {
   text-align: center;
+  color: hsl(224deg, 23%, 55%);
   padding: 0 10px 0 10px;
 }
 .container .box .box-img {
@@ -36,14 +45,16 @@
 }
 .container .box h2 {
   margin-bottom: 15px;
+  font-weight: 900;
 }
 .container .box .plans {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
-  background-color: hsl(224deg, 23%, 55%);
+  background-color: hsl(225deg, 100%, 98%);
   padding: 20px 15px 20px 15px;
   margin: 40px 0 40px 0;
+  border-radius: 15px;
 }
 .container .box .plans img {
   height: 40px;
@@ -54,12 +65,38 @@
   flex-direction: column;
   align-items: flex-start;
   font-size: 13px;
+  margin-right: 55px;
+}
+.container .box .plans .price .price-p {
+  color: hsl(224deg, 23%, 55%);
+}
+.container .box .plans a {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245deg, 75%, 52%);
+}
+.container .box .plans a:hover {
+  text-decoration: none;
+  color: hsl(224deg, 23%, 55%);
 }
 .container .box button {
   display: block;
   margin-bottom: 40px;
-  padding: 10px;
+  padding: 15px 0;
   width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245deg, 75%, 52%);
+}
+.container .box button:hover {
+  background-color: hsl(224deg, 23%, 55%);
+}
+.container .box button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 15px 97px;
+  border-radius: 10px;
 }
 
 * {

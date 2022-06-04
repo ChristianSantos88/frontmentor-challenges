@@ -9,17 +9,28 @@
     background-color: $primary-color-pale-blue;
 
     .box {
-        width: 360px;
+        width: 400px;
         background-color: white;
         text-align: center;
         border-radius: 20px 15px 15px 15px;
 
         .text-box {
             padding: 0 38px 40px 38px;
+
+            .cancel-order {
+                color: $neutral-color-desaturated-blue;
+                text-decoration: none;
+                font-weight: $f-weight-900;
+
+                &:hover {
+                    color: $neutral-color-dark-blue;
+                }
+            }
         }
 
         .first-p {
             text-align: center;
+            color: $neutral-color-desaturated-blue;
             padding: 0 10px 0 10px;
             
         }
@@ -32,15 +43,17 @@
 
         h2 {
             margin-bottom: 15px;
+            font-weight: $f-weight-900;
         }
 
         .plans {
             display: flex;
-            gap: 10px;
+            gap: 12px;
             align-items: center;
-            background-color: $neutral-color-desaturated-blue;
+            background-color: $neutral-color-very-pale-blue;
             padding: 20px 15px 20px 15px;
             margin: 40px 0 40px 0;
+            border-radius: 15px;
 
             img {
                 height: 40px;
@@ -51,16 +64,48 @@
                 gap: 5px;
                 flex-direction: column;
                 align-items: flex-start;
-                font-size: 13px;
+                font-size: 13px; 
+                margin-right: 55px;  
+                
+                .price-p {
+                    color: $neutral-color-desaturated-blue;
+                }
 
             }
+
+            a {
+                font-size: 13px;
+                font-weight: $f-weight-700;
+                color: $primary-color-bright-blue;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $neutral-color-desaturated-blue;
+                }
+            }
+
         }
 
         button  {
             display: block;
             margin-bottom: 40px;
-            padding: 10px;
-            width: 100%;            
+            padding: 15px 0;
+            width: 100%;     
+            border-radius: 10px;   
+            border: none;  
+            background-color: $primary-color-bright-blue;
+
+            &:hover {
+                background-color: $neutral-color-desaturated-blue;
+            }
+            
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: 700;
+                padding: 15px 97px;
+                border-radius: 10px
+            }
         }
 
         
